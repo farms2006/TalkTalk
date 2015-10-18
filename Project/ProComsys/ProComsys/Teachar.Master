@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Teachar.master.cs" Inherits="ProComsys.Teachar" %>
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+     <link rel="stylesheet" href="Bootstrap/css/bootstrap.css"/>
+     <link rel="stylesheet" href="Bootstrap/css/layout.css"/>
+    <link  rel="stylesheet" href="jumbotron.css"/>
+
+    <style type="text/css">
+        /*body
+        {
+        background: url("Image/bg.jpg");
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        }*/   
+    </style>
+</head>
+<body>
+      <form id="form1" runat="server">  
+       <nav class="navbar navbar-inverse  navbar-fixed-top" style="background-color:#1C9F34;">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="TIndex.aspx">SENIOR PROJECT</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="TProjectAdviser.aspx">คำร้องขอ</a></li>
+                <li><a href="THistory.aspx">ประวัติเอกสาร</a></li>
+                <li><a href="TAbout.aspx">About</a></li>
+              </ul>
+         <%-- <form class="navbar-form navbar-right" >--%> <%-- <form id="form1" runat="server">    --%> 
+            <div class="navbar-form navbar-right">         
+            <asp:label  ID="SNAME" runat="server" ></asp:label>  
+               <asp:Button ID="logout" runat="server" Text="Sign Out"  class="btn btn-success" style="background-color:#1C9F34" OnClick="logout_Click1"/>
+        <%-- </form>--%>
+                </div>
+        </div> <!--/.navbar-collapse -->
+      </div>
+    </nav>
+   
+     <div style="margin-top:5%;">
+            <div style="margin-left:5%; margin-right:5%;  ">
+        <div style=" width:100%; height:600px;  background-color:#fff; margin:1%;">   
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">  
+        </asp:ContentPlaceHolder>
+        </div>   
+       </div>             
+       <div id='footers'> @copyright 2015 : Narasuan Univercity</div>  <%--footer--%>
+           </div>
+    </form> 
+</body>
+</html>

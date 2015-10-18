@@ -1,0 +1,15 @@
+C:\Users\Donlaya\Desktop\ProComsys\ProComsys\bin\ProComsys.dll
+C:\Users\Donlaya\Desktop\ProComsys\ProComsys\bin\ProComsys.pdb
+C:\Users\Donlaya\Desktop\ProComsys\ProComsys\obj\Debug\ProComsys.csprojResolveAssemblyReference.cache
+C:\Users\Donlaya\Desktop\ProComsys\ProComsys\obj\Debug\ProComsys.dll
+C:\Users\Donlaya\Desktop\ProComsys\ProComsys\obj\Debug\ProComsys.pdb
+I:\comsys\ProComsys\ProComsys\ProComsys\bin\ProComsys.dll
+I:\comsys\ProComsys\ProComsys\ProComsys\bin\ProComsys.pdb
+I:\comsys\ProComsys\ProComsys\ProComsys\obj\Debug\ProComsys.csprojResolveAssemblyReference.cache
+I:\comsys\ProComsys\ProComsys\ProComsys\obj\Debug\ProComsys.dll
+I:\comsys\ProComsys\ProComsys\ProComsys\obj\Debug\ProComsys.pdb
+S:\สุรเดช\Project\ProComsys\ProComsys\bin\ProComsys.dll
+S:\สุรเดช\Project\ProComsys\ProComsys\bin\ProComsys.pdb
+S:\สุรเดช\Project\ProComsys\ProComsys\obj\Debug\ProComsys.csprojResolveAssemblyReference.cache
+S:\สุรเดช\Project\ProComsys\ProComsys\obj\Debug\ProComsys.dll
+S:\สุรเดช\Project\ProComsys\ProComsys\obj\Debug\ProComsys.pdb
