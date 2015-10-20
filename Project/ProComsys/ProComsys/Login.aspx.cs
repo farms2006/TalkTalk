@@ -14,7 +14,7 @@ namespace ProComsys
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Session.Clear();
         }
 
         protected void Login_Click(object sender, EventArgs e)

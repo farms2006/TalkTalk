@@ -1,16 +1,10 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Teachar.Master" AutoEventWireup="true" CodeBehind="TAbout.aspx.cs" Inherits="ProComsys.WebForm25" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <style type="text/css">
-    .auto-style8 {
-        width: 390px;
-        height: 343px;
-    }
-</style>
-</asp:Content>
+    </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div style="margin-top:5%;">
         <div style="margin:1%;">
-        <div style=" border-color:red; width:100%; height:500px;"><br>
+        <div style=" border-color:red; width:100%; height:500px; "><br>
            <center> <h1>About Us</h1>
               </center>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Form File Senior Project เป็นเว็บไซต์ที่เพิ่ม
@@ -66,7 +60,11 @@
                                        <a href="http://ed55.blogspot.com/"><br>  เพิ่มเติม ...<br /></a>
                                     </div>
                                 </div>
-                                    </div>  
+                                    </div>
+                            
+            <center><br><h1>   Modified By  </h1></center></br>
+                             
+                              
                               <div class="row">
                                 <div class="col-sm-5 col-md-2">
                                     <div class="thumbnail">
@@ -121,10 +119,11 @@
    <center><h4>ติดต่อ</h4></center>
         <center>คณะวิศวกรรมศาสตร์ มหาวิทยาลัยนเรศวร เลขที่ 99 หมู่ 9 ตำบลท่าโพธิ์ อำเภอเมือง จังหวัดพิษณุโลก 65000 <br><br></center>
           <center>  เว็บนี้เป็นส่วนหนึ่งของรายวิชา computer system Engineering :ผู้สอน ดร.สุรเดช จิตประไพกุลศาล ( <a href="suradetj@gmail.com">suradetj@gmail.com</a>)</center>
-             </div>
+             <div id='footer'> @copyright 2015 : Narasuan University</div>
+        
+        <div></div>
+        
+    </div>
 
-       </div>
-     </div>
-
-</div>
+  
 </asp:Content>

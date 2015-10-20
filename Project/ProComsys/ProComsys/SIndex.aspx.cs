@@ -108,7 +108,7 @@ namespace ProComsys
             string constr = WebConfigurationManager.ConnectionStrings["Db"].ConnectionString;
             SqlConnection con = new SqlConnection(constr);
             con.Open();
-            SqlCommand cmd = new SqlCommand("delete from SProject  where SProject.SID = '"+id+"'", con);
+            SqlCommand cmd = new SqlCommand("delete from SProject  where SProject.SID = '" + Session["Name"].ToString() + "'", con);
             cmd.ExecuteNonQuery();
             con.Close();
 
@@ -120,7 +120,6 @@ namespace ProComsys
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
             GridViewRow row = GridView1.SelectedRow;
             String key = row.Cells[2].Text;  // IDRequest
             string countAcceptStatus = "";

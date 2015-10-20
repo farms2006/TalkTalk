@@ -26,7 +26,7 @@
 </head>
 <body>
      <form id="form1" runat="server">         
-       <nav class="navbar navbar-inverse  navbar-fixed-top" style="background-color:#1C9F34;">
+       <nav class="navbar navbar-inverse  navbar-fixed-top" style="background-color:#1C9F34; height: 60px">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -58,7 +58,7 @@
         </asp:ContentPlaceHolder>
         </div>   
        </div>             
-       <div id='footers'> @copyright 2015 : Narasuan Univercity</div>  <%--footer--%>
+            <%--footer--%>
            </div>
     </form> 
 </body>

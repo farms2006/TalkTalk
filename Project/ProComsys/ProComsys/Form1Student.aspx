@@ -18,15 +18,17 @@
     <div style="margin:1%;"><br>
     <center><h3>แบบเสนอหัวข้อโครงงานวิศวกรรมคอมพิวเตอร์(CPE01)</h3></center><br>
     <div>
-      <h5>  ชื่อโครงงาน&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <asp:DropDownList ID="DDTName" runat="server" AutoPostBack="True" OnSelectedIndexChanged="DDTName_SelectedIndexChanged">
-          </asp:DropDownList>
-        </h5>
   
-            ภาษาไทย&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <asp:TextBox ID="TName" runat="server" Width="422px"></asp:TextBox>
+            ชื่อภาษาไทยเก่า&nbsp;&nbsp;&nbsp;&nbsp;  
+            <asp:TextBox ID="TextBox1" runat="server" Width="240px" Enabled="False"></asp:TextBox>
+        &nbsp; เรื่องภาษาไทยใหม่&nbsp;
+            <asp:TextBox ID="TextBox3" runat="server" Height="20px" Width="240px"></asp:TextBox>
         <br />
-        <br>
-            ภาษาอังกฤษ&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <asp:TextBox ID="EName" runat="server" Width="422px"></asp:TextBox>
+        <br />
+            ชื่อภาษาอังกฤษเก่า&nbsp;&nbsp;&nbsp;  
+            <asp:TextBox ID="TextBox2" runat="server" Width="240px" Enabled="False"></asp:TextBox>
+     &nbsp; เรื่องภาษาอังกฤษใหม่&nbsp;
+            <asp:TextBox ID="TextBox4" runat="server" Width="240px"></asp:TextBox>
      </div>
      <div>
         <h5>รายชื่อนิสิตผู้ทำโครงงาน</h5>
@@ -67,5 +69,6 @@
          </center>
         </div>
         </div>
+    <div id='footer'> @copyright 2015 : Narasuan University</div>
     
 </asp:Content>

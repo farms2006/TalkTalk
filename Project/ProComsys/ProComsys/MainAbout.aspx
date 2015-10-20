@@ -62,7 +62,8 @@
                                        <a href="http://ed55.blogspot.com/"><br>  เพิ่มเติม ...<br /></a>
                                     </div>
                                 </div>
-                                    </div>  
+                                    </div> 
+                              <center><br><h1>   Modified By  </h1></center></br> 
                             
                               <div class="row">
                                 <div class="col-sm-5 col-md-2">
@@ -117,11 +118,10 @@
                        </div>
    <center><h4>ติดต่อ</h4></center>
         <center>คณะวิศวกรรมศาสตร์ มหาวิทยาลัยนเรศวร เลขที่ 99 หมู่ 9 ตำบลท่าโพธิ์ อำเภอเมือง จังหวัดพิษณุโลก 65000 <br><br></center>
-          <center>  เว็บนี้เป็นส่วนหนึ่งของรายวิชา computer system Engineering :ผู้สอน ดร.สุรเดช จิตประไพกุลศาล ( <a href="suradetj@gmail.com">suradetj@gmail.com</a>)</center>
-             </div>
-
-       </div>
-     </div>
-
-</div>
+          <center>  เว็บนี้เป็นส่วนหนึ่งของรายวิชา 305351 computer system Engineering เเละ วิชา 305471 Software Engineering :ผู้สอน ดร.สุรเดช จิตประไพกุลศาล ( <a href="suradetj@gmail.com">suradetj@gmail.com</a>)</center>
+             <div id='footer'> @copyright 2015 : Narasuan University</div>
+        
+        <div></div>
+        
+    </div>
 </asp:Content>

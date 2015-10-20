@@ -1,11 +1,12 @@
-﻿* { margin: 0; padding: 0; }
+﻿* { margin: 0 0 11px 0; 
+padding: 0; }
 #all{ width:980px; height:100%; margin:0px auto; position:relative; }
-#header{ background-color:#ec8000; height:100px; padding:8px; }
+#header{ background-color:#ec8000; height:60px; padding:8px; }
 #left{ background-color:#80ec00; height:100%; width:200px; position:absolute;}
 #content{ position:absolute; margin:0 250px 0 200px; padding:8px; }
 #right{ background-color:#8080ec; height:100%; width:250px; position:absolute; right:0; }
 #footer{ position:absolute; background-color:#808080; height:33px; 
-text-align:center; bottom:-143px; 
+text-align:center;
 width:100%;
     left: 5px;
 }

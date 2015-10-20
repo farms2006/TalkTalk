@@ -27,6 +27,7 @@
               </form>
                       </div>
                    </div>
+           <div id='footer'> @copyright 2015 : Narasuan University</div>
           </center>
                </div>
    

@@ -7,11 +7,12 @@
        <center>
    <div>
       
-     <h4>   <asp:Label ID="labp" runat="server" Text="Label"></asp:Label></h4><br>   
+     <h4>   &nbsp;</h4>
+       <asp:Label ID="labp" runat="server" Text="Label"></asp:Label>
+       <br>   
        <center><h3><asp:Label ID="NoRequest" runat="server" Text="ไม่มีคำร้องขอที่รอการตอบรับ"></asp:Label></h3></center>
        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
            <Columns>
-                <asp:ButtonField Text="delete" CommandName="select" />
                 <asp:TemplateField HeaderText="ลำดับที่">
                         <ItemTemplate>
                             <%# Container.DataItemIndex + 1 %>
