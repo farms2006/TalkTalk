@@ -13,3 +13,8 @@ S:\สุรเดช\Project\ProComsys\ProComsys\bin\ProComsys.pdb
 S:\สุรเดช\Project\ProComsys\ProComsys\obj\Debug\ProComsys.csprojResolveAssemblyReference.cache
 S:\สุรเดช\Project\ProComsys\ProComsys\obj\Debug\ProComsys.dll
 S:\สุรเดช\Project\ProComsys\ProComsys\obj\Debug\ProComsys.pdb
+D:\TalkTalk\Project\ProComsys\ProComsys\bin\ProComsys.dll
+D:\TalkTalk\Project\ProComsys\ProComsys\bin\ProComsys.pdb
+D:\TalkTalk\Project\ProComsys\ProComsys\obj\Debug\ProComsys.csprojResolveAssemblyReference.cache
+D:\TalkTalk\Project\ProComsys\ProComsys\obj\Debug\ProComsys.dll
+D:\TalkTalk\Project\ProComsys\ProComsys\obj\Debug\ProComsys.pdb

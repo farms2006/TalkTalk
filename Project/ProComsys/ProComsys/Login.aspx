@@ -23,12 +23,16 @@
                              <input type="checkbox"> Remember me
                           </label>
                   </div>--%>
+                
                <center>   <asp:Button ID="Login" runat="server" Text="Login" class="btn btn-default" OnClick="Login_Click" /></center>
               </form>
                       </div>
                    </div>
-           <div id='footer'> @copyright 2015 : Narasuan University</div>
+          
+           <div id='footer'> @copyright 2015 : Narasuan University </div>
           </center>
+                
                </div>
-   
+    
+            
 </asp:Content>

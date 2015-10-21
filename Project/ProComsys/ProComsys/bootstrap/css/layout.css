@@ -8,6 +8,7 @@ padding: 0; }
 #footer{ position:absolute; background-color:#808080; height:33px; 
 text-align:center;
 width:100%;
-    left: 5px;
+    left: 23px;
+    top: 592px;
 }
 #footers{ position:absolute; background-color:#808080; height:20px; text-align:center; bottom:-150px; width:100%; }
