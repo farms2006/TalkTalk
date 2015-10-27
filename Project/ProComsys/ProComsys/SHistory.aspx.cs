@@ -27,7 +27,7 @@ namespace ProComsys
             con.Open();
             SqlCommand cmd = new SqlCommand("select  f.FName as form , CONVERT(VARCHAR, r.RequestDate, 121) as date , re.SName as status, CONVERT(VARCHAR , si.SignDate,121) as Adate ,r.IDRequest as idr" +
             "  from Request r join RequestStatus re on r.RStatus = re.SNo  join Form f on r.NOForm = f.NOForm join SProject s on r.IDProject = s.IDProject  " +
-        "   join [Sign] si on r.IDRequest = si.IDRequest    where s.SID ='" + id + "'", con);
+            "   join [Sign] si on r.IDRequest = si.IDRequest    where s.SID ='" + id + "'", con);
             SqlDataReader reader2 = cmd.ExecuteReader();
             GridView1.DataSource = reader2;
             GridView1.DataBind();
@@ -48,10 +48,10 @@ namespace ProComsys
             " where s.SID = '" + id + "' ", con);
             SqlDataReader reader1 = cmd.ExecuteReader();
 
-            if (reader1.Read())
-            {
-                PName.Text = reader1[0].ToString() + "  (" + reader1[1].ToString() + ")";
-            }
+            //if (reader1.Read())
+           // {
+            //    PName.Text = reader1[0].ToString() + "  (" + reader1[1].ToString() + ")";
+            //}
 
             reader1.Close();
             con.Close();

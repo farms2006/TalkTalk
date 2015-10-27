@@ -149,8 +149,8 @@ namespace ProComsys
                     //    MessageBox.Show("pont = " + ponts);
                   
                     SID1.Enabled = false;
-                    SID2.Enabled = true;
-                    SID3.Enabled = true;
+                    SID2.Enabled = false;
+                    SID3.Enabled = false;
                     Sent.Text = "Edit";
                     cancel.Text = "Back";
                     //   ShowDD();
@@ -530,8 +530,11 @@ namespace ProComsys
         protected void insertStudent()
         {
             InsertSProject(SID1.Text);
+      
             InsertSProject(SID2.Text);
+     
             InsertSProject(SID3.Text);
+        
         }
 
         protected void Sent_click(object sender, EventArgs e)
@@ -596,53 +599,55 @@ namespace ProComsys
             }
             else if (ponts == "0")
             {
-                if (DD1.Text != DD2.Text && DD1.Text != DD3.Text && DD2.Text != DD3.Text)
+              if (TextBox3.Text != "" && TextBox4.Text != "")
                 {
-                    if (DD1.Text != "None")
+                    if (DD1.Text != DD2.Text && DD1.Text != DD3.Text && DD2.Text != DD3.Text)
                     {
-                        if (DD3.Text != "None")
+                        if (DD1.Text != "None")
                         {
-
-                            INsertProject();
-                            insertStudent();
-                            insertTeacher();
-                            InsertRequest();
-                            InsertSign();
-
-                            /*string constr = WebConfigurationManager.ConnectionStrings["Db"].ConnectionString;
-                            SqlConnection con = new SqlConnection(constr);
-                            con.Open();
-                            SqlCommand cmd5 = new SqlCommand(" UPDATE [User] SET PThaiName= '" + TName.Text + "',PEngName='" + EName.Text + "'  WHERE username = " + Session["IDP"] + " ", con);
-                            cmd5.ExecuteNonQuery();
-                  */
-        //ชื่อโครงงาน,รหัสโครงงาน
-                            MessageBox.Show("แก้ไข แบบเสนอหัวข้อโครงงานแล้ว", "finish", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            Response.Redirect("Sform.aspx");
+                            if (DD3.Text != "None")
+                            {
+                                    if (SID2.Text == "" && SID3.Text == "" || SID2.Text != SID3.Text)
+                                    {
+                                        if (SID1.Text != SID2.Text && SID1.Text != SID3.Text)
+                                        {
+                                            INsertProject();
+                                            insertStudent();
+                                            insertTeacher();
+                                            InsertRequest();
+                                            InsertSign();
+                                            MessageBox.Show("แก้ไขหัวข้อโครงงานแล้ว", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                            Response.Redirect("Sform.aspx");
+                                        }
+                                        else
+                                        {
+                                            MessageBox.Show("คุณใส่รหัสนิสิตซ้ำกัน", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                                        }
+                                    }
+                                 
+                            }
+                            else
+                            {
+                                MessageBox.Show("โปรดเลือกกรรมการ", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            }
                         }
                         else
                         {
-                            MessageBox.Show("โปรดเลือกกรรมการ", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            MessageBox.Show("โปรดเลือกอาจารย์ที่ปรึกษา", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
+
                     }
                     else
                     {
-                        MessageBox.Show("โปรดเลือกอาจารย์ที่ปรึกษา", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("คุณเลือกอาจารย์ซ้ำ หรือไม่เป็นตามเงื่อนไข", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
-
                 }
                 else
                 {
-                    MessageBox.Show("คุณเลือกอาจารย์ซ้ำ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("คุณไม่ได้ใส่ชื่อโปรเจค", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
-            else
-            {
-                Response.Redirect("SHistory.aspx");
-            }
-
-
         }
-
         protected void cancel_Click(object sender, EventArgs e)
         {
             Response.Redirect("Sform.aspx");

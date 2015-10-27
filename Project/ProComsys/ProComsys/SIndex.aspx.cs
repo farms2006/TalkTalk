@@ -45,14 +45,14 @@ namespace ProComsys
             reader.Close();
             con.Close();
 
-            if (cou == "0")
+            /*if (cou == "0")
             {
                 NoRequest.Visible = true;
             }
             else
             {
                 NoRequest.Visible = false;
-            }
+            }*/
         }
 
         protected void showProject() 
@@ -83,7 +83,7 @@ namespace ProComsys
             " where s.SID = '"+id+"' ", con);
             SqlDataReader reader1 = cmd.ExecuteReader();
 
-            if (reader1.Read())
+          /*  if (reader1.Read())
             {
                 labp.Text = reader1[0].ToString()+"  ("+reader1[1].ToString()+")";
             }
@@ -100,7 +100,7 @@ namespace ProComsys
             {
                 labp.Visible = true;
                 OUT.Visible = true;
-            }
+            }*/
         }
 
         protected void OUT_Click(object sender, EventArgs e)
@@ -113,7 +113,7 @@ namespace ProComsys
             con.Close();
 
 
-            labp.Visible = true;
+            //labp.Visible = true;
             OUT.Visible = true;
             Response.Redirect("SIndex.aspx");
         }

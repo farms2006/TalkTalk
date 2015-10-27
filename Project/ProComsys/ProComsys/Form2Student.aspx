@@ -52,4 +52,5 @@
          </center>
         </div>
         </div>
+    <div style ="text-align:center;background-color:#808080"><@copyright 2015 : Narasuan University></div>
 </asp:Content>

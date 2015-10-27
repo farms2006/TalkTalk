@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <center>  <div style="margin:1%;"><br>
           
-        <h4>  <asp:Label ID="PName" runat="server" Text="คุณไม่มีประวัติเอกสาร"></asp:Label></h4>
+        <h4>  ประวัติเอกสาร</h4>
   
        <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
            <Columns>
@@ -24,5 +24,18 @@
      
           </div>
     </center>
-     
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <br />
+    <br />
+    <br />
+     <div style ="text-align:center;background-color:#808080"><@copyright 2015 : Narasuan University></div>
 </asp:Content>

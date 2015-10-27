@@ -5,10 +5,10 @@ padding: 0; }
 #left{ background-color:#80ec00; height:100%; width:200px; position:absolute;}
 #content{ position:absolute; margin:0 250px 0 200px; padding:8px; }
 #right{ background-color:#8080ec; height:100%; width:250px; position:absolute; right:0; }
-#footer{ position:absolute; background-color:#808080; height:33px; 
+#footer{ position:initial; background-color:#808080; height:33px; 
 text-align:center;
 width:100%;
-    left: 23px;
-    top: 592px;
+    left: 49px;
+    top: 3100px;
 }
-#footers{ position:absolute; background-color:#808080; height:20px; text-align:center; bottom:-150px; width:100%; }
+#footers{ position:absolute; background-color:#808080; height:2000px; text-align:center; bottom:-150px; width:100%; }

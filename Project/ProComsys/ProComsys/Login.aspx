@@ -29,7 +29,7 @@
                       </div>
                    </div>
           
-           <div id='footer'> @copyright 2015 : Narasuan University </div>
+           <div style ="text-align:center;background-color:#808080"><@copyright 2015 : Narasuan University></div>
           </center>
                 
                </div>
